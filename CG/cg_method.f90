@@ -52,7 +52,7 @@ call CG(N,A,x,b,epsilon)
 write(*,*)"The solution is x: "
 write(*,*)x
 
-pause
+
 
 end program cg_code
 !*********************************
