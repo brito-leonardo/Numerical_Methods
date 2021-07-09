@@ -30,12 +30,10 @@
 program sor_code
 implicit none
 integer,parameter::N=4
-real,dimension(1:N)::b,x,err_vec
+real,dimension(1:N)::b,x
 real,dimension(1:N,1:N)::A
 real::omega !relaxation factor
 real::epsilon !convergence criterium
-real::err !residual error
-real::sigma !auxiliary variables
 integer::iter !number of SOR iterations
 integer::i,j,k,Nk
 
@@ -63,7 +61,6 @@ write(*,*)
 write(*,*)"The number of iterations was: ",iter
 
 
-pause
 
 end program sor_code
 !*******************************
@@ -112,7 +109,10 @@ do i=1,N0
 end do
 
 end subroutine print_matrix
-!***********************************
+!*****************************************************
+!SOR scheme based on the algorith provided by:
+!https://en.wikipedia.org/wiki/Successive_over-relaxation
+!
 subroutine sor_rout(N0,A0,x0,b0,omega0,epsilon0,iter0)
 implicit none
 integer::N0
