@@ -10,28 +10,34 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
     <tr>
       <th>Folder</th>
       <th>Content</th>
+      <th>Programming Language</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Bisection </td>
       <td>Bisection method to find a root of a function within an interval</td>
+      <td>Fortran 90 and Python 3</td>
     </tr>
     <tr>
       <td>CG </td>
       <td>Conjugate gradient (CG) method to solve a linear matrix system</td>
+      <td>Fortran 90 and Python 3</td>
     </tr>
     <tr>
       <td>LU_scheme </td>
       <td>Lower-Upper (LU) scheme to solve a linear matrix system, where the matrix is tridiagonal</td>
+      <td>Fortran 90 and Python 3</td>
     </tr> 
     <tr>
       <td>Newton </td>
       <td>Newton method to find a root of a function</td>
+      <td>Fortran 90 and Python 3</td>
     </tr> 
     <tr>
       <td>SOR </td>
       <td>Sucessive-Over relaxation (SOR) scheme to solve a linear matrix system</td>
+      <td>Fortran 90 and Python 3</td>
     </tr> 
       
   </tbody>
