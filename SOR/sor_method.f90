@@ -33,7 +33,7 @@ integer,parameter::N=4
 real,dimension(1:N)::b,x
 real,dimension(1:N,1:N)::A
 real::omega !relaxation factor
-real::epsilon !convergence criterium
+real::epsilon !convergence criterion
 integer::iter !number of SOR iterations
 integer::i,j,k,Nk
 
@@ -48,7 +48,7 @@ write(*,*)
 !set SOR parameters
 !set omega
 omega=0.5
-!set the convergence criterium
+!set the convergence criterion
 epsilon=1.e-8
 !call the SOR scheme
 call sor_rout(N,A,x,b,omega,epsilon,iter)
@@ -119,7 +119,7 @@ integer::N0
 real,dimension(1:N0)::b0,x0,err_vec
 real,dimension(1:N0,1:N0)::A0
 real::omega0 !relaxation factor
-real::epsilon0 !convergence criterium
+real::epsilon0 !convergence criterion
 real::err !residual error
 real::sigma !auxiliaru variable
 integer::i,j,k,Nk,iter0
