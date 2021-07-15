@@ -81,7 +81,7 @@ print('')
 
 #set SOR relaxation parameter
 omega=0.5
-#set the convergence criterium
+#set the convergence criterion
 epsilon=1.e-8
 #find the solution
 x=sor_scheme(A,xi,b,omega,epsilon)
