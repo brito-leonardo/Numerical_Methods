@@ -12,14 +12,14 @@
 !author: Leonardo Brito
 !Physics Phd Student
 !Institute of Physics (IFUSP)
-!University of SÆo Paulo (USP)
+!University of SÃ†o Paulo (USP)
 !_______________________________________________________________________
 program bisec_code
 implicit none
 real::a,b,c !auxiliary variables
 real::x !roots
 real::f !function
-real::epsilon !convergence criterium
+real::epsilon !convergence criterion
 real::err !error
 
 
@@ -32,7 +32,7 @@ b=2.0
 !there is a root within the interval [1,2]
 !because the function change its sign.
 
-!set a convergence criterium
+!set a convergence criterion
 epsilon=1.e-6
 !set an arbitrary error
 err=1.0
