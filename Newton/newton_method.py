@@ -34,7 +34,7 @@ def fd(x):
 
 #solution guess
 x0=0.5
-#convergence criterium
+#convergence criterion
 epsilon=1.e-6
 #set starting variables
 xold=x0
