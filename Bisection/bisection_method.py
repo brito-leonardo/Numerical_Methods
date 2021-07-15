@@ -36,7 +36,7 @@ b=2.0
 #there is a root within the interval [1,2]
 #because the function change its sign.
 
-#set a convergence criterium
+#set a convergence criterion
 epsilon=1.e-6
 #set an arbitrary error
 err=1.0
