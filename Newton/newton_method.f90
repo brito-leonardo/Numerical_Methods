@@ -23,12 +23,12 @@ program newton_code
 implicit none
 real::f,fd !fucntion and its first derivative
 real::err !error
-real::epsilon !convergence criterium
+real::epsilon !convergence criterion
 real::x0,xold,x !solutions
 
 !solution guess x0
 x0=0.5
-!convergence criterium
+!convergence criterion
 epsilon=1.e-8
 !set starting variables
 xold=x0
