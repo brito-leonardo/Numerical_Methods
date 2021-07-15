@@ -44,7 +44,7 @@ write(*,*)
 
 !set the initial guess
 x=x0
-!set the convergence criterium
+!set the convergence criterion
 epsilon=1.e-6
 !call the CG method
 call CG(N,A,x,b,epsilon)
