@@ -17,18 +17,18 @@
 !author: Leonardo Brito
 !Physics Phd Student
 !Institute of Physics (IFUSP)
-!University of SÆo Paulo (USP)
+!University of SÃ†o Paulo (USP)
 !_______________________________________________________________________
 program newton_FD_code
 implicit none
 real::f,fd !fucntion and its first derivative
 real::err !error
-real::epsilon !convergence criterium
+real::epsilon !convergence criterion
 real::x0,xold,x !solutions
 
 !solution guess x0
 x0=0.5
-!convergence criterium
+!convergence criterion
 epsilon=1.e-6
 !set starting variables
 xold=x0
