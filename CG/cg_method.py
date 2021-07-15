@@ -57,7 +57,7 @@ print('')
 x0=np.zeros(2)
 print('the solution guess x0 is: ', x0)
 print('')
-#set an convergence criterium
+#set an convergence criterion
 epsilon=1.e-6
 #find the solution by cg method
 x=cg(A,x0,b,epsilon)
