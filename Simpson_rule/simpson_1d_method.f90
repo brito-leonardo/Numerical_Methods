@@ -125,6 +125,5 @@ else  !when Nx is an odd number
       result=result+(fx(i)*dx*f(i))/3.0d0
    end do
 end if
-!sum of the trapezium rule
 
 end subroutine simpson_rout
