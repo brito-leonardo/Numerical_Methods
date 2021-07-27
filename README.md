@@ -39,7 +39,12 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
       <td>Sucessive-Over relaxation (SOR) scheme to solve a linear matrix system</td>
       <td>Fortran 90 and Python 3</td>
     </tr> 
-      
+    <tr>
+      <td>Trapezium_rule </td>
+      <td>Trapezium rule to perform the integration of a fucntion in a given interval</td>
+      <td>Fortran 90 and Python 3</td>
+    </tr> 
+    
   </tbody>
 
 </table>
