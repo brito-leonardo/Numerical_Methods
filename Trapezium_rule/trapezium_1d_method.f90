@@ -22,7 +22,7 @@
 !author: Leonardo Brito
 !Physics Phd Student
 !Institute of Physics (IFUSP)
-!University of SÆo Paulo (USP)
+!University of SÃ£o Paulo (USP)
 !_______________________________________________________________________
 program trapezium
 implicit none
