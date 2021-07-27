@@ -63,8 +63,8 @@ def func(N0,a0,b0):
 # output: r: result
 
 def simpson(N0,dx0,f0):
-    fx0=np.zeros(N0) #define an auxiliary array of trapezium factors
-    if(N0%2==0):
+    fx0=np.zeros(N0) #define an auxiliary array of simpson factors
+    if(N0%2==0): # when N0 is an even number
         fx0[0]=1
         for i in range(1,N0,2):
             fx0[i]=4
@@ -73,7 +73,7 @@ def simpson(N0,dx0,f0):
         r0=0.0
         for i in range(N0):
             r0=r0+(fx0[i]*dx0*f0[i])/3.0
-    else:
+    else: # when N0 is an odd number
         fx0[0]=1
         for i in range(1,N0-1,2):
             fx0[i]=4
