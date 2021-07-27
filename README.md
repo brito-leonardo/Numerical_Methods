@@ -44,6 +44,11 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
       <td>Trapezium rule to perform the integration of a function in a given interval</td>
       <td>Fortran 90 and Python 3</td>
     </tr> 
+    <tr>
+      <td>Simpson_rule </td>
+      <td>Simpson's rule to perform the integration of a function in a given interval</td>
+      <td>Fortran 90 and Python 3</td>
+    </tr> 
     
   </tbody>
 
