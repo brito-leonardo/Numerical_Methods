@@ -68,7 +68,7 @@ def trapezium(N0,dx0,f0):
         fx0[i]=2
     fx0[N0-1]=1    
     r0=0.0
-    for i in range(Nx):
+    for i in range(N0):
         r0=r0+(fx0[i]*dx0*f0[i])/2.0
     return r0
 
