@@ -1,4 +1,4 @@
-#code name: 'simpson_1d_method.f90'
+#code name: 'simpson_1d_method.py'
 #
 #description: This code aims to apply the Simpson's rule to integrate
 #             a one-dimensional function f(x)
