@@ -24,7 +24,7 @@
 !author: Leonardo Brito
 !Physics Phd Student
 !Institute of Physics (IFUSP)
-!University of SÆo Paulo (USP)
+!University of São Paulo (USP)
 !_______________________________________________________________________
 program simpson
 implicit none
@@ -99,7 +99,7 @@ integer::i !auxiliary integer
 !simpson factors
 !valid for an even or odd number of points Nx
 !odd
-if(mod(Nx,2)==0.0)then !even, the error is a little bigger
+if(mod(Nx,2)==0.0)then !when Nx is an even number
    fx(1)=1
    do i=2,Nx,2
       fx(i)=4
@@ -111,7 +111,7 @@ if(mod(Nx,2)==0.0)then !even, the error is a little bigger
    do i=1,Nx
       result=result+(fx(i)*dx*f(i))/3.0d0
    end do
-else  !odd
+else  !when Nx is an odd number
    fx(1)=1
    do i=2,Nx-1,2
       fx(i)=4
