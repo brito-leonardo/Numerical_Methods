@@ -49,6 +49,11 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
       <td>Simpson's rule to perform the integration of a function in a given interval</td>
       <td>Fortran 90 and Python 3</td>
     </tr> 
+    <tr>
+      <td>Euler </td>
+      <td>Euler's method to solve ordinary differential equations (ODE)</td>
+      <td>Fortran 90 and Python 3</td>
+    </tr>
     
   </tbody>
 
