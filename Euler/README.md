@@ -1,59 +1,33 @@
-# Numerical Methods
+# Euler
 
-Here we present some useful numerical methods applied to simple problems, which are a starting point before we work with physics problems, where
-they are often used. We present the codes in Fortran 90 and Python 3 versions.
+Here we present some applications of the Euler method. We solve ordinary differential equations (ODE), focusing in 1st order ODE, binary systems, and 2nd order ODE. We present the codes in Fortran 90 and Python 3 versions.
 
 ## Table of Contents
 
 <table>
   <thead>
     <tr>
-      <th>Folder</th>
+      <th>Code</th>
       <th>Content</th>
-      <th>Programming Language</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Bisection </td>
-      <td>Bisection method to find a root of a function within an interval</td>
-      <td>Fortran 90 and Python 3</td>
+      <td>euler_method </td>
+      <td>Simple problem of a first order ODE</td>
     </tr>
     <tr>
-      <td>CG </td>
-      <td>Conjugate gradient (CG) method to solve a linear matrix system</td>
-      <td>Fortran 90 and Python 3</td>
+      <td>euler_method2 </td>
+      <td>Simple problem of a first order ODE</td>
     </tr>
     <tr>
-      <td>LU_scheme </td>
-      <td>Lower-Upper (LU) scheme to solve a linear matrix system, where the matrix is tridiagonal</td>
-      <td>Fortran 90 and Python 3</td>
+      <td>euler_method3 </td>
+      <td>System of two coupled ODE's</td>
     </tr> 
     <tr>
-      <td>Newton </td>
-      <td>Newton method to find a root of a function</td>
-      <td>Fortran 90 and Python 3</td>
+      <td>euler_method4 </td>
+      <td>Second order ODE solved as a systems of two coupled ODE's</td>
     </tr> 
-    <tr>
-      <td>SOR </td>
-      <td>Sucessive-Over relaxation (SOR) scheme to solve a linear matrix system</td>
-      <td>Fortran 90 and Python 3</td>
-    </tr> 
-    <tr>
-      <td>Trapezium_rule </td>
-      <td>Trapezium rule to perform the integration of a function in a given interval</td>
-      <td>Fortran 90 and Python 3</td>
-    </tr> 
-    <tr>
-      <td>Simpson_rule </td>
-      <td>Simpson's rule to perform the integration of a function in a given interval</td>
-      <td>Fortran 90 and Python 3</td>
-    </tr> 
-    <tr>
-      <td>Euler </td>
-      <td>Euler's method to solve ordinary differential equations (ODE)</td>
-      <td>Fortran 90 and Python 3</td>
-    </tr>
     
   </tbody>
 
