@@ -26,7 +26,7 @@ Here we present some applications of the Euler method. We solve ordinary differe
     </tr> 
     <tr>
       <td>euler_method4 </td>
-      <td>Second order ODE solved as a systems of two coupled ODE's</td>
+      <td>Second order ODE solved as a system of two coupled ODE's</td>
     </tr> 
     
   </tbody>
