@@ -28,6 +28,10 @@ Here we present some applications of the Euler method. We solve ordinary differe
       <td>euler_method4 </td>
       <td>Second order ODE solved as a system of two coupled ODE's</td>
     </tr> 
+    <tr>
+      <td>euler_improved </td>
+      <td>First order ODE solved by the improved Euler's method</td>
+    </tr> 
     
   </tbody>
 
