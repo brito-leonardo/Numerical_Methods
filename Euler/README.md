@@ -1,4 +1,4 @@
-# Euler
+# Euler's Method
 
 Here we present some applications of the Euler method. We solve ordinary differential equations (ODE), focusing in 1st order ODE, binary systems, and 2nd order ODE. We present the codes in Fortran 90 and Python 3 versions.
 
