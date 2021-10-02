@@ -1,4 +1,4 @@
-# 4th order Runge-Kutta Method
+# 4th order Runge-Kutta (RK4) Method
 
 Here we present some applications of the 4th order Runge-Kutta (RK4) method. We solve ordinary differential equations (ODE), focusing in 1st order ODE, binary systems, and 2nd order ODE. We present the codes in Fortran 90 and Python 3 versions.
 
