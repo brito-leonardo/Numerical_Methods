@@ -16,11 +16,11 @@ Here we present some applications of the 4th order Runge-Kutta (RK4) method. We 
       <td>rk4_method </td>
       <td>Simple problem of a first order ODE</td>
     </tr>
-      <td>euler_method2 </td>
+      <td>rk4_method2 </td>
       <td>System of two coupled ODE's</td>
     </tr> 
     <tr>
-      <td>euler_method3 </td>
+      <td>rk4_method3 </td>
       <td>Second order ODE solved as a system of two coupled ODE's</td>
     </tr> 
     <tr>
