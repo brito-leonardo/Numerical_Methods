@@ -56,7 +56,7 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
     </tr>
     <tr>
       <td>RK4 </td>
-      <td>4th order Runge-Kutta method to solve ordinary differential equations (ODE)</td>
+      <td>4th order Runge-Kutta (RK4) method to solve ordinary differential equations (ODE)</td>
       <td>Fortran 90 and Python 3</td>
     </tr>
     
