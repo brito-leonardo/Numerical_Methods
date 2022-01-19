@@ -70,6 +70,11 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
       <td>Fortran 90</td>
     </tr>
     
+    <tr>
+      <td>Combinatorial </td>
+      <td>factorial and Combination functions</td>
+      <td>Fortran 90</td>
+    </tr>
   </tbody>
 
 </table>
