@@ -69,10 +69,9 @@ they are often used. We present the codes in Fortran 90 and Python 3 versions.
       <td>Shooting method to solve ordinary differential equations (ODE) using the Euler method to evolve equations</td>
       <td>Fortran 90</td>
     </tr>
-    
     <tr>
       <td>Combinatorial </td>
-      <td>factorial and Combination functions</td>
+      <td>Factorial and combination functions</td>
       <td>Fortran 90</td>
     </tr>
   </tbody>
